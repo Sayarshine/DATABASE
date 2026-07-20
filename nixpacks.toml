@@ -1,2 +1,5 @@
 [phases.setup]
-nixPkgs = ["glib", "libGL", "xorg.libSM", "xorg.libXext", "xorg.libXrender"]
+nixPkgs = ["python311", "glib", "libGL", "xorg.libSM", "xorg.libXext", "xorg.libXrender"]
+
+[start]
+cmd = "python3 bot.py"
